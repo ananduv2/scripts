@@ -1,0 +1,509 @@
+Hosts Result
+qventure-db-snap-1: None
+Output
+Host : qventure-db-snap-1  InstanceId : i-0bff47b41d58a2ab0  TimeStamp : 2022-05-26 08:25:45+00:00
+------------------------------------------------------------------------------------------------------------------------
+t[1255]:   tags:
+[   56.714861] cloud-init[1255]:     account_name: quantix
+[   56.715069] cloud-init[1255]:     domain: qventure
+[   56.715280] cloud-init[1255]:     env: dev
+[   56.715492] cloud-init[1255]:     name: qventure-db-snap-1[0m
+[   56.715694] cloud-init[1255]: [0;36mDebug: Facter: fact "cloud.provider" has resolved to: aws[0m
+[   56.715901] cloud-init[1255]: [0;36mDebug: Facter: fact "ruby.version" has resolved to: 2.7.5[0m
+[   56.716108] cloud-init[1255]: [0;36mDebug: Facter: fact "rubyversion" has resolved to: 2.7.5[0m
+[   56.716310] cloud-init[1255]: [0;36mDebug: Facter: fact "ruby.platform" has resolved to: x86_64-linux[0m
+[   56.716523] cloud-init[1255]: [0;36mDebug: Facter: fact "rubyplatform" has resolved to: x86_64-linux[0m
+[   56.716741] cloud-init[1255]: [0;36mDebug: Facter: fact "ruby.sitedir" has resolved to: /opt/puppetlabs/puppet/lib/ruby/site_ruby/2.7.0[0m
+[   56.716939] cloud-init[1255]: [0;36mDebug: Facter: fact "rubysitedir" has resolved to: /opt/puppetlabs/puppet/lib/ruby/site_ruby/2.7.0[0m
+[   56.717149] cloud-init[1255]: [0;36mDebug: Facter: fact "aio_agent_version" has resolved to: 7.15.0[0m
+[   56.717363] cloud-init[1255]: [0;36mDebug: Facter: fact "ipaddress6_lo" has resolved to: ::1[0m
+[   56.717572] cloud-init[1255]: [0;36mDebug: Facter: fact "ipaddress6_ens5" has resolved to: fe80::1004:5fff:fe8b:938b[0m
+[   56.717792] cloud-init[1255]: [0;36mDebug: Facter: fact "os.hardware" has resolved to: x86_64[0m
+[   56.717993] cloud-init[1255]: [0;36mDebug: Facter: fact "hardwaremodel" has resolved to: x86_64[0m
+[   56.718221] cloud-init[1255]: [0;36mDebug: Facter: fact "os.family" has resolved to: Debian[0m
+[   56.718428] cloud-init[1255]: [0;36mDebug: Facter: fact "osfamily" has resolved to: Debian[0m
+[   56.718635] cloud-init[1255]: [0;36mDebug: Facter: fact "os.selinux.enabled" has resolved to: false[0m
+[   56.718846] cloud-init[1255]: [0;36mDebug: Facter: fact "selinux" has resolved to: false[0m
+[   56.719043] cloud-init[1255]: [0;36mDebug: Facter: fact "os.name" has resolved to: Ubuntu[0m
+[   56.719258] cloud-init[1255]: [0;36mDebug: Facter: fact "operatingsystem" has resolved to: Ubuntu[0m
+[   56.719478] cloud-init[1255]: [0;36mDebug: Facter: fact "timezone" has resolved to: UTC[0m
+[   56.719744] cloud-init[1255]: [0;36mDebug: Facter: fact "mountpoints" has resolved to: {"/"=>{"device"=>"/dev/nvme0n1p1", "filesystem"=>"ext4", "options"=>["rw", "relatime", "discard"], "size_bytes"=>49895047168, "available_bytes"=>43490000896, "used_bytes"=>6388269056, "capacity"=>"12.81%", "size"=>"46.47 GiB", "available"=>"40.50 GiB", "used"=>"5.95 GiB"}, "/dev"=>{"device"=>"devtmpfs", "filesystem"=>"devtmpfs", "options"=>["rw", "relatime", "size=16022244k", "nr_inodes=4005561", "mode=755", "inode64"], "size_bytes"=>16406777856, "available_bytes"=>16406777856, "used_bytes"=>0, "capacity"=>"0%", "size"=>"15.28 GiB", "available"=>"15.28 GiB", "used"=>"0 bytes"}, "/dev/shm"=>{"device"=>"tmpfs", "filesystem"=>"tmpfs", "options"=>["rw", "nosuid", "nodev", "inode64"], "size_bytes"=>16413569024, "available_bytes"=>16413569024, "used_bytes"=>0, "capacity"=>"0%", "size"=>"15.29 GiB", "available"=>"15.29 GiB", "used"=>"0 bytes"}, "/dev/pts"=>{"device"=>"devpts", "filesystem"=>"devpts[2022-05-26T08:20:23.988898]", "options"=>["rw", "nosuid", "noexec", "relatime", "gid=5", "mode=620", "ptmxmode=000"], "size_bytes"=>0, "available_bytes"=>0, "used_bytes"=>0, "capacity"=>"100%", "size"=>"0 bytes", "available"=>"0 bytes", "used"=>"0 bytes"}, "/run"=>{"device"=>"tmpfs", "filesystem"=>"tmpfs", "options"=>["rw", "nosuid", "nodev", "size=3205776k", "mode=755", "inode64"], "size_bytes"=>3282714624, "available_bytes"=>3281809408, "used_bytes"=>905216, "capacity"=>"0.03%", "size"=>"3.06 GiB", "available"=>"3.06 GiB", "used"=>"884.00 KiB"}, "/run/lock"=>{"device"=>"tmpfs", "filesystem"=>"tmpfs", "options"=>["rw", "nosuid", "nodev", "noexec", "relatime", "size=5120k", "inode64"], "size_bytes"=>5242880, "available_bytes"=>5242880, "used_bytes"=>0, "capacity"=>"0%", "size"=>"5.00 MiB", "available"=>"5.00 MiB", "used"=>"0 bytes"}, "/sys/fs/cgroup"=>{"device"=>"tmpfs", "filesystem"=>"tmpfs", "options"=>["ro", "nosuid", "nodev", "noexec", "mode=755", "inode64"], "size_bytes"=>16413569024, "available_bytes"[2022-05-26T08:20:23.988922]=>16413569024, "used_bytes"=>0, "capacity"=>"0%", "size"=>"15.29 GiB", "available"=>"15.29 GiB", "used"=>"0 bytes"}, "/dev/hugepages"=>{"device"=>"hugetlbfs", "filesystem"=>"hugetlbfs", "options"=>["rw", "relatime", "pagesize=2M"], "size_bytes"=>0, "available_bytes"=>0, "used_bytes"=>0, "capacity"=>"100%", "size"=>"0 bytes", "available"=>"0 bytes", "used"=>"0 bytes"}, "/dev/mqueue"=>{"device"=>"mqueue", "filesystem"=>"mqueue", "options"=>["rw", "nosuid", "nodev", "noexec", "relatime"], "size_bytes"=>0, "available_bytes"=>0, "used_bytes"=>0, "capacity"=>"100%", "size"=>"0 bytes", "available"=>"0 bytes", "used"=>"0 bytes"}, "/run/rpc_pipefs"=>{"device"=>"sunrpc", "filesystem"=>"rpc_pipefs", "options"=>["rw", "relatime"], "size_bytes"=>0, "available_bytes"=>0, "used_bytes"=>0, "capacity"=>"100%", "size"=>"0 bytes", "available"=>"0 bytes", "used"=>"0 bytes"}, "/snap/amazon-ssm-agent/5163"=>{"device"=>"/dev/loop0", "filesystem"=>"squashfs", "options"=>["ro", "nodev", "relatime"], "size[2022-05-26T08:20:23.988952]_bytes"=>28049408, "available_bytes"=>0, "used_bytes"=>28049408, "capacity"=>"100%", "size"=>"26.75 MiB", "available"=>"0 bytes", "used"=>"26.75 MiB"}, "/snap/lxd/22753"=>{"device"=>"/dev/loop3", "filesystem"=>"squashfs", "options"=>["ro", "nodev", "relatime"], "size_bytes"=>71172096, "available_bytes"=>0, "used_bytes"=>71172096, "capacity"=>"100%", "size"=>"67.88 MiB", "available"=>"0 bytes", "used"=>"67.88 MiB"}, "/snap/core20/1405"=>{"device"=>"/dev/loop1", "filesystem"=>"squashfs", "options"=>["ro", "nodev", "relatime"], "size_bytes"=>65011712, "available_bytes"=>0, "used_bytes"=>65011712, "capacity"=>"100%", "size"=>"62.00 MiB", "available"=>"0 bytes", "used"=>"62.00 MiB"}, "/snap/core18/2344"=>{"device"=>"/dev/loop4", "filesystem"=>"squashfs", "options"=>["ro", "nodev", "relatime"], "size_bytes"=>58327040, "available_bytes"=>0, "used_bytes"=>58327040, "capacity"=>"100%", "size"=>"55.63 MiB", "available"=>"0 bytes", "used"=>"55.63 MiB"}, "/snap/snapd/15177"=>{"device"=>"/dev/[2022-05-26T08:20:23.988977]loop2", "filesystem"=>"squashfs", "options"=>["ro", "nodev", "relatime"], "size_bytes"=>45875200, "available_bytes"=>0, "used_bytes"=>45875200, "capacity"=>"100%", "size"=>"43.75 MiB", "available"=>"0 bytes", "used"=>"43.75 MiB"}, "/run/snapd/ns"=>{"device"=>"tmpfs", "filesystem"=>"tmpfs", "options"=>["rw", "nosuid", "nodev", "size=3205776k", "mode=755", "inode64"], "size_bytes"=>3282714624, "available_bytes"=>3281809408, "used_bytes"=>905216, "capacity"=>"0.03%", "size"=>"3.06 GiB", "available"=>"3.06 GiB", "used"=>"884.00 KiB"}, "/run/snapd/ns/lxd.mnt"=>{"device"=>"nsfs", "filesystem"=>"nsfs", "options"=>["rw"], "size_bytes"=>0, "available_bytes"=>0, "used_bytes"=>0, "capacity"=>"100%", "size"=>"0 bytes", "available"=>"0 bytes", "used"=>"0 bytes"}}[0m
+[   56.819760] cloud-init[1255]: [0;36mDebug: Facter: fact "puppetversion" has resolved to: 7.15.0[0m
+[   56.819886] cloud-init[1255]: [0;36mDebug: Facter: fact "ipv6_enabled" has resolved to: true[0m
+[   56.820090] cloud-init[1255]: [0;36mDebug: Facter: fact "tags" has resolved to: {"Name"=>"qventure-db-snap-1", "wst_account_name"=>"quantix", "wst_config"=>"{\"s3\": {\"beacon-rel\": \"wst-core-dev\", \"rel\": \"qventure-beacon\", \"opt\": \"qventure-beacon\"}}", "wst_domain"=>"qventure", "wst_env"=>"dev", "wst_name"=>"qventure-db-snap-1"}[0m
+[   56.820301] cloud-init[1255]: [0;36mDebug: Facter: fact "wst" has resolved to: {"tags"=>{"account_name"=>"quantix", "domain"=>"qventure", "env"=>"dev", "name"=>"qventure-db-snap-1"}, "account_name"=>"quantix", "domain"=>"qventure", "env"=>"dev", "name"=>"qventure-db-snap-1", "config"=>"{\"s3\": {\"beacon-rel\": \"wst-core-dev\", \"rel\": \"qventure-beacon\", \"opt\": \"qventure-beacon\"}}", "account"=>"quantix", "hiera_host_class"=>"qventure-db-snap-1"}[0m
+[   56.820508] cloud-init[1255]: [0;36mDebug: Facter: fact "drives" has resolved to: [{"type"=>"block", "id"=>"vol-0058e78a9b7bac9ae", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>false}, {"type"=>"block", "id"=>"vol-05a56be07510c805b", "name"=>"/dev/sda1", "device"=>"/dev/sda1", "mount"=>"/", "attached"=>true}, {"type"=>"block", "id"=>"vol-015fe18c674be835a", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>true}][0m
+[   56.820914] cloud-init[1255]: [0;36mDebug: Facter: fact "provider" has resolved to: aws[0m
+[   56.821181] cloud-init[1255]: [0;36mDebug: Facter: fact "region" has resolved to: us-east-1[0m
+[   56.821345] cloud-init[1255]: [0;36mDebug: Facter: fact "instance_type" has resolved to: m5.2xlarge[0m
+[   56.821540] cloud-init[1255]: [0;36mDebug: Facter: fact "wst_config" has resolved to: {"s3"=>{"beacon-rel"=>"wst-core-dev", "rel"=>"qventure-beacon", "opt"=>"qventure-beacon"}}[0m
+[   56.821742] cloud-init[1255]: [0;36mDebug: Facter: fact "apt_reboot_required" has resolved to: false[0m
+[   56.821950] cloud-init[1255]: [0;36mDebug: Facter: fact "apt_update_last_success" has resolved to: -1[0m
+[   56.822151] cloud-init[1255]: [0;36mDebug: Facter: fact "apt_has_updates" has resolved to: false[0m
+[   56.822361] cloud-init[1255]: [0;36mDebug: Facter: fact "apt_has_dist_updates" has resolved to: false[0m
+[   56.822575] cloud-init[1255]: [0;36mDebug: Facter: fact "swapfile_sizes" has resolved to: {}[0m
+[   56.822775] cloud-init[1255]: [0;36mDebug: Facter: fact "autofs_version" has resolved to: 5.1.6[0m
+[   56.822994] cloud-init[1255]: [0;36mDebug: Facter: fact "is_pe" has resolved to: false[0m
+[   56.823203] cloud-init[1255]: [0;36mDebug: Facter: fact "package_provider" has resolved to: apt[0m
+[   56.823402] cloud-init[1255]: [0;36mDebug: Facter: fact "root_home" has resolved to: /root[0m
+[   56.823600] cloud-init[1255]: [0;36mDebug: Facter: fact "service_provider" has resolved to: systemd[0m
+[   56.823811] cloud-init[1255]: [0;36mDebug: Facter: fact "puppet_vardir" has resolved to: /opt/puppetlabs/puppet/cache[0m
+[   56.824011] cloud-init[1255]: [0;36mDebug: Facter: fact "puppet_environmentpath" has resolved to: /etc/puppetlabs/code/environments[0m
+[   56.824220] cloud-init[1255]: [0;36mDebug: Facter: fact "puppet_server" has resolved to: puppet[0m
+[   56.824429] cloud-init[1255]: [0;36mDebug: Facter: fact "physical_volumes" has resolved to: {}[0m
+[   56.824640] cloud-init[1255]: [0;36mDebug: Facter: fact "lvm_support" has resolved to: true[0m
+[   56.824850] cloud-init[1255]: [0;36mDebug: Facter: fact "lvm_vgs" has resolved to: 0[0m
+[   56.825039] cloud-init[1255]: [0;36mDebug: Facter: fact "lvm_pvs" has resolved to: 0[0m
+[   56.825248] cloud-init[1255]: [0;36mDebug: Facter: fact "logical_volumes" has resolved to: {}[0m
+[   56.875008] cloud-init[1255]: [0;36mDebug: Facter: fact "volume_groups" has resolved to: {}[0m
+[   56.875200] cloud-init[1255]: [0;36mDebug: Facter: fact "iptables_persistent_version" has resolved to: 1.0.14ubuntu1[0m
+[   56.875396] cloud-init[1255]: [0;36mDebug: Facter: fact "iptables_version" has resolved to: 1.8.4[0m
+[   56.875602] cloud-init[1255]: [0;36mDebug: Facter: fact "ip6tables_version" has resolved to: 1.8.4[0m
+[   56.875814] cloud-init[1255]: [0;36mDebug: Facter: fact "ssh_client_version_full" has resolved to: 8.2p1[0m
+[   56.876020] cloud-init[1255]: [0;36mDebug: Facter: fact "ssh_server_version_full" has resolved to: 8.2p1[0m
+[   56.876227] cloud-init[1255]: [0;36mDebug: Facter: fact "ssh_server_version_major" has resolved to: 8[0m
+[   56.876433] cloud-init[1255]: [0;36mDebug: Facter: fact "ssh_server_version_release" has resolved to: 8.2[0m
+[   56.876640] cloud-init[1255]: [0;36mDebug: Facter: fact "sudoversion" has resolved to: 1.8.31[0m
+[   56.877054] cloud-init[1255]: [0;36mDebug: Evicting cache entry for environment :production[0m
+[   56.877259] cloud-init[1255]: [0;36mDebug: Deleted text domain :production: false[0m
+[   56.877471] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: fqdn[0m
+[   56.877667] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: fqdn in file: fqdn.rb[0m
+[   56.877871] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: fqdn in core facts and external facts[0m
+[   56.878082] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   56.878295] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7bcb9090 @name="fqdn", @fact_class=Facts::Linux::Networking::Fqdn, @user_query="fqdn", @type=:legacy, @file=nil>][0m
+[   56.878502] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   56.878716] cloud-init[1255]: [0;36mDebug: Facter: fact "fqdn" has resolved to: ip-10-60-43-238.ec2.internal[0m
+[   56.878924] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: ipaddress[0m
+[   56.879128] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: ipaddress in file: ipaddress.rb[0m
+[   56.879343] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: ipaddress in core facts and external facts[0m
+[   56.879548] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   56.879758] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7bb5ff00 @name="ipaddress", @fact_class=Facts::Linux::Networking::Ip, @user_query="ipaddress", @type=:legacy, @file=nil>][0m
+[   56.879963] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   56.880169] cloud-init[1255]: [0;36mDebug: Facter: fact "ipaddress" has resolved to: 10.60.43.238[0m
+[   56.880379] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: ipaddress6[0m
+[   56.880588] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: ipaddress6 in file: ipaddress6.rb[0m
+[   56.880816] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: ipaddress6 in core facts and external facts[0m
+[   56.881004] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   56.881205] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7a501e98 @name="ipaddress6", @fact_class=Facts::Linux::Networking::Ip6, @user_query="ipaddress6", @type=:legacy, @file=nil>][0m
+[   56.881422] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   56.881629] cloud-init[1255]: [0;36mDebug: Facter: fact "ipaddress6" has resolved to: fe80::1004:5fff:fe8b:938b[0m
+[   56.881828] cloud-init[1255]: [0;36mDebug: Caching environment :production (ttl = 0 sec)[0m
+[   56.882034] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: kernel[0m
+[   56.882229] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: kernel in file: kernel.rb[0m
+[   56.882430] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: kernel in core facts and external facts[0m
+[   56.882640] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   56.882851] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7ef91008 @name="kernel", @fact_class=Facts::Linux::Kernel, @user_query="kernel", @type=:core, @file=nil>][0m
+[   56.883054] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   56.932862] cloud-init[1255]: [0;36mDebug: Facter: fact "kernel" has resolved to: Linux[0m
+[   56.933055] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: domain[0m
+[   56.933268] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: domain in file: domain.rb[0m
+[   56.933472] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: domain in core facts and external facts[0m
+[   56.933682] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   56.933883] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7ef05c60 @name="domain", @fact_class=Facts::Linux::Networking::Domain, @user_query="domain", @type=:legacy, @file=nil>][0m
+[   56.934103] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   56.934303] cloud-init[1255]: [0;36mDebug: Facter: fact "domain" has resolved to: ec2.internal[0m
+[   56.934509] cloud-init[1255]: [1;33mWarning: Undefined variable '::role';
+[   56.934720] cloud-init[1255]:    (file & line not available)[0m
+[   56.934927] cloud-init[1255]: [0;36mDebug: Lookup of 'role'
+[   56.935137] cloud-init[1255]:   Searching for "lookup_options"
+[   56.935340] cloud-init[1255]:     Global Data Provider (hiera configuration version 5)
+[   56.935545] cloud-init[1255]:       Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   56.935752] cloud-init[1255]:       Hierarchy entry "Yaml backend"
+[   56.935961] cloud-init[1255]:         Merge strategy hash
+[   56.936160] cloud-init[1255]:           Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   56.936361] cloud-init[1255]:             Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   56.936569] cloud-init[1255]:             No such key: "lookup_options"
+[   56.936824] cloud-init[1255]:           Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/.yaml"
+[   56.936985] cloud-init[1255]:             Original path: "role/%{::role}.yaml"
+[   56.937184] cloud-init[1255]:             Path not found
+[   56.937404] cloud-init[1255]:           Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   56.937611] cloud-init[1255]:             Original path: "family/%{facts.os.name}.yaml"
+[   56.937816] cloud-init[1255]:             No such key: "lookup_options"
+[   56.938029] cloud-init[1255]:           Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   56.938236] cloud-init[1255]:             Original path: "provider/%{facts.provider}.yaml"
+[   56.938446] cloud-init[1255]:             No such key: "lookup_options"
+[   56.938655] cloud-init[1255]:           Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   56.938859] cloud-init[1255]:             Original path: "common.yaml"
+[   56.939066] cloud-init[1255]:             Found key: "lookup_options" value: {
+[   56.939273] cloud-init[1255]:               "^beacon::profile::base::(.*)" => {
+[   56.939484] cloud-init[1255]:                 "merge" => {
+[   56.939697] cloud-init[1255]:                   "strategy" => "deep"
+[   56.939901] cloud-init[1255]:                 }
+[   56.940113] cloud-init[1255]:               }
+[   56.940326] cloud-init[1255]:             }
+[   56.940534] cloud-init[1255]:           Merged result: {
+[   56.940748] cloud-init[1255]:             "^beacon::profile::base::(.*)" => {
+[   56.940951] cloud-init[1255]:               "merge" => {
+[   56.941156] cloud-init[1255]:                 "strategy" => "deep"
+[   56.941366] cloud-init[1255]:               }
+[   56.941575] cloud-init[1255]:             }
+[   56.941787] cloud-init[1255]:           }
+[   56.942005] cloud-init[1255]:     Environment Data Provider (hiera configuration version 5)
+[   56.942222] cloud-init[1255]:       Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+[   56.942482] cloud-init[1255]:       Merge strategy hash
+[   56.942628] cloud-init[1255]:         Hierarchy entry "Per-node data (yaml version)"
+[   56.942842] cloud-init[1255]:           Path "/etc/puppetlabs/code/environments/production/data/nodes/ip-10-60-43-238.ec2.internal.yaml"
+[   56.943051] cloud-init[1255]:             Original path: "nodes/%{::trusted.certname}.yaml"
+[   56.993187] cloud-init[1255]:             Path not found
+[   56.993389] cloud-init[1255]:         Hierarchy entry "Other YAML hierarchy levels"
+[   56.993595] cloud-init[1255]:           Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+[   56.993808] cloud-init[1255]:             Original path: "common.yaml"
+[   56.994008] cloud-init[1255]:             Path not found
+[   56.994221] cloud-init[1255]:   Searching for "role"
+[   56.994430] cloud-init[1255]:     Global Data Provider (hiera configuration version 5)
+[   56.994643] cloud-init[1255]:       Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   56.994846] cloud-init[1255]:       Hierarchy entry "Yaml backend"
+[   56.995055] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   56.995263] cloud-init[1255]:           Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   56.995467] cloud-init[1255]:           No such key: "role"
+[   56.995681] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/.yaml"
+[   56.995895] cloud-init[1255]:           Original path: "role/%{::role}.yaml"
+[   56.996100] cloud-init[1255]:           Path not found
+[   56.996313] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   56.996515] cloud-init[1255]:           Original path: "family/%{facts.os.name}.yaml"
+[   56.996936] cloud-init[1255]:           No such key: "role"
+[   56.997146] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   56.997368] cloud-init[1255]:           Original path: "provider/%{facts.provider}.yaml"
+[   56.997574] cloud-init[1255]:           No such key: "role"
+[   56.997778] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   56.997985] cloud-init[1255]:           Original path: "common.yaml"
+[   56.998190] cloud-init[1255]:           Found key: "role" value: "base"[0m
+[   56.998391] cloud-init[1255]: [0;36mDebug: Lookup of 'system_package_provider'
+[   56.998600] cloud-init[1255]:   Searching for "system_package_provider"
+[   56.998817] cloud-init[1255]:     Global Data Provider (hiera configuration version 5)
+[   56.999020] cloud-init[1255]:       Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   56.999234] cloud-init[1255]:       Hierarchy entry "Yaml backend"
+[   56.999432] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   56.999646] cloud-init[1255]:           Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   56.999855] cloud-init[1255]:           No such key: "system_package_provider"
+[   57.000065] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/base.yaml"
+[   57.000277] cloud-init[1255]:           Original path: "role/%{::role}.yaml"
+[   57.000493] cloud-init[1255]:           No such key: "system_package_provider"
+[   57.000709] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   57.000913] cloud-init[1255]:           Original path: "family/%{facts.os.name}.yaml"
+[   57.001115] cloud-init[1255]:           Found key: "system_package_provider" value: "apt"
+[   57.001338] cloud-init[1255]:       Hiera configuration recreated due to change of scope variables used in interpolation expressions[0m
+[   57.001542] cloud-init[1255]: [0;36mDebug: Lookup of 'classes'
+[   57.001751] cloud-init[1255]:   Searching for "classes"
+[   57.001965] cloud-init[1255]:     Merge strategy unique
+[   57.002170] cloud-init[1255]:       Global Data Provider (hiera configuration version 5)
+[   57.002365] cloud-init[1255]:         Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   57.002577] cloud-init[1255]:         Hierarchy entry "Yaml backend"
+ci-info: ++++++++++++++++++++++++++++++++++Authorized keys from /home/ubuntu/.ssh/authorized_keys for user ubuntu++++++++++++++++++++++++++++++++++
+[   57.053720] cloud-init[1255]:           Merge strategy unique
+[   57.053855] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+ci-info: +---------+-------------------------------------------------------------------------------------------------+---------+------------------+
+[   57.054076] cloud-init[1255]:               Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   57.054297] cloud-init[1255]:               No such key: "classes"
+ci-info: | Keytype |                                       Fingerprint (sha256)                                      | Options |     Comment      |
+[   57.054515] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/base.yaml"
+[   57.054742] cloud-init[1255]:               Original path: "role/%{::role}.yaml"
+ci-info: +---------+-------------------------------------------------------------------------------------------------+---------+------------------+
+[   57.054966] cloud-init[1255]:               Found key: "classes" value: [
+[   57.055206] cloud-init[1255]:                 "beacon::role::base"
+ci-info: | ssh-rsa | f0:22:1b:f9:21:5f:c7:22:7a:8e:83:ca:57:57:f6:5c:60:66:e4:28:6f:a7:fb:7d:c9:92:89:18:a1:78:cb:6f |    -    | wst-core-dev@aws |
+[   57.055420] cloud-init[1255]:               ]
+[   57.055640] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+ci-info: | ssh-rsa | 38:b7:7b:2f:7e:95:41:89:11:be:c0:f1:f6:1e:09:0e:a1:f2:cd:a0:64:b4:d8:6f:27:c9:cd:d3:28:59:51:03 |    -    |   qventure-wst   |
+[   57.055859] cloud-init[1255]:               Original path: "family/%{facts.os.name}.yaml"
+[   57.056081] cloud-init[1255]:               No such key: "classes"
+ci-info: +---------+-------------------------------------------------------------------------------------------------+---------+------------------+
+[   57.056302] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   57.056525] cloud-init[1255]:               Original path: "provider/%{facts.provider}.yaml"
+[   57.056776] cloud-init[1255]:               No such key: "classes"
+[   57.056993] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   57.057231] cloud-init[1255]:               Original path: "common.yaml"
+[   57.057475] cloud-init[1255]:               Found key: "classes" value: [
+[   57.057708] cloud-init[1255]:                 "beacon::profile::manageusers"
+[   57.057944] cloud-init[1255]:               ]
+[   57.058184] cloud-init[1255]:             Merged result: [
+[   57.058437] cloud-init[1255]:               "beacon::role::base",
+[   57.058709] cloud-init[1255]:               "beacon::profile::manageusers"
+[   57.058920] cloud-init[1255]:             ]
+[   57.059152] cloud-init[1255]:       Environment Data Provider (hiera configuration version 5)
+[   57.059419] cloud-init[1255]:         Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+[   57.059668] cloud-init[1255]:         Merge strategy unique
+[   57.059876] cloud-init[1255]:           Hierarchy entry "Per-node data (yaml version)"
+[   57.060089] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/nodes/ip-10-60-43-238.ec2.internal.yaml"
+[   57.060329] cloud-init[1255]:               Original path: "nodes/%{::trusted.certname}.yaml"
+[   57.060555] cloud-init[1255]:               Path not found
+[   57.060967] cloud-init[1255]:           Hierarchy entry "Other YAML hierarchy levels"
+[   57.061175] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+[   57.061391] cloud-init[1255]:               Original path: "common.yaml"
+[   57.061598] cloud-init[1255]:               Path not found
+[   57.061807] cloud-init[1255]:       Merged result: [
+[   57.062007] cloud-init[1255]:         "beacon::role::base",
+[   57.062219] cloud-init[1255]:         "beacon::profile::manageusers"
+[   57.112588] cloud-init[1255]:       ][0m
+[   57.112945] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/role/base.pp' in environment production[0m
+[   57.113164] cloud-init[1255]: [0;36mDebug: Automatically imported beacon::role::base from beacon/role/base into production[0m
+[   57.113364] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/profile/manageusers.pp' in environment production[0m
+[   57.113572] cloud-init[1255]: [0;36mDebug: Automatically imported beacon::profile::manageusers from beacon/profile/manageusers into production[0m
+[   57.113783] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/profile/base.pp' in environment production[0m
+[   57.113996] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/stdlib/manifests/init.pp' in environment production[0m
+[   57.114204] cloud-init[1255]: [0;36mDebug: Automatically imported beacon::profile::base from beacon/profile/base into production[0m
+[   57.114410] cloud-init[1255]: [0;36mDebug: Automatic Parameter Lookup of 'beacon::profile::base::ntp_servers'
+[   57.114619] cloud-init[1255]:   Using merge options from "lookup_options" hash
+[   57.114819] cloud-init[1255]:   Searching for "beacon::profile::base::ntp_servers"
+[   57.115029] cloud-init[1255]:     Merge strategy deep
+[   57.115234] cloud-init[1255]:       Global Data Provider (hiera configuration version 5)
+[   57.115442] cloud-init[1255]:         Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   57.115652] cloud-init[1255]:         Hierarchy entry "Yaml backend"
+[   57.115859] cloud-init[1255]:           Merge strategy deep
+[   57.116063] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   57.116464] cloud-init[1255]:               Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   57.116896] cloud-init[1255]:               No such key: "beacon::profile::base::ntp_servers"
+[   57.117097] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/base.yaml"
+[   57.117316] cloud-init[1255]:               Original path: "role/%{::role}.yaml"
+[   57.117526] cloud-init[1255]:               No such key: "beacon::profile::base::ntp_servers"
+[   57.117736] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   57.117947] cloud-init[1255]:               Original path: "family/%{facts.os.name}.yaml"
+[   57.118164] cloud-init[1255]:               No such key: "beacon::profile::base::ntp_servers"
+[   57.118363] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   57.118569] cloud-init[1255]:               Original path: "provider/%{facts.provider}.yaml"
+[   57.118774] cloud-init[1255]:               Found key: "beacon::profile::base::ntp_servers" value: [
+[   57.118980] cloud-init[1255]:                 "169.254.169.123 iburst"
+[   57.119185] cloud-init[1255]:               ]
+[   57.119380] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   57.119588] cloud-init[1255]:               Original path: "common.yaml"
+[   57.119792] cloud-init[1255]:               No such key: "beacon::profile::base::ntp_servers"
+[   57.120000] cloud-init[1255]:             Merged result: [
+[   57.120203] cloud-init[1255]:               "169.254.169.123 iburst"
+[   57.120407] cloud-init[1255]:             ]
+[   57.120611] cloud-init[1255]:       Environment Data Provider (hiera configuration version 5)
+[   57.121027] cloud-init[1255]:         Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+[   57.121248] cloud-init[1255]:         Merge strategy deep
+[   57.121460] cloud-init[1255]:           Hierarchy entry "Per-node data (yaml version)"
+[   57.171890] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/nodes/ip-10-60-43-238.ec2.internal.yaml"
+[   57.172075] cloud-init[1255]:               Original path: "nodes/%{::trusted.certname}.yaml"
+[   57.172291] cloud-init[1255]:               Path not found
+[   57.172491] cloud-init[1255]:           Hierarchy entry "Other YAML hierarchy levels"
+[   57.172908] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+[   57.173108] cloud-init[1255]:               Original path: "common.yaml"
+[   57.173322] cloud-init[1255]:               Path not found
+[   57.173529] cloud-init[1255]:       Module data provider for module "beacon" not found
+[   57.173743] cloud-init[1255]:       Merged result: [
+[   57.173955] cloud-init[1255]:         "169.254.169.123 iburst"
+[   57.174159] cloud-init[1255]:       ][0m
+[   57.174369] cloud-init[1255]: [0;36mDebug: Automatic Parameter Lookup of 'beacon::profile::base::known_hosts'
+[   57.174575] cloud-init[1255]:   Using merge options from "lookup_options" hash
+[   57.174780] cloud-init[1255]:   Searching for "beacon::profile::base::known_hosts"
+[   57.174993] cloud-init[1255]:     Merge strategy deep
+[   57.175197] cloud-init[1255]:       Global Data Provider (hiera configuration version 5)
+[   57.175399] cloud-init[1255]:         Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   57.175612] cloud-init[1255]:         Hierarchy entry "Yaml backend"
+[   57.175819] cloud-init[1255]:           Merge strategy deep
+[   57.176026] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   57.176236] cloud-init[1255]:               Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   57.176435] cloud-init[1255]:               No such key: "beacon::profile::base::known_hosts"
+[   57.176647] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/base.yaml"
+[   57.176855] cloud-init[1255]:               Original path: "role/%{::role}.yaml"
+[   57.177065] cloud-init[1255]:               No such key: "beacon::profile::base::known_hosts"
+[   57.177290] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   57.177496] cloud-init[1255]:               Original path: "family/%{facts.os.name}.yaml"
+[   57.177700] cloud-init[1255]:               No such key: "beacon::profile::base::known_hosts"
+[   57.177908] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   57.178118] cloud-init[1255]:               Original path: "provider/%{facts.provider}.yaml"
+[   57.178319] cloud-init[1255]:               No such key: "beacon::profile::base::known_hosts"
+[   57.178545] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   57.178729] cloud-init[1255]:               Original path: "common.yaml"
+[   57.178935] cloud-init[1255]:               Found key: "beacon::profile::base::known_hosts" value: {
+[   57.179148] cloud-init[1255]:                 "bitbucket.org" => "AAAAB3NzaC1yc2EAAAABIwAAAQEAubiN81eDcafrgMeLzaFPsw2kNvEcqTKl/VqLat/MaB33pZy0y3rJZtnqwR2qOOvbwKZYKiEO1O6VqNEBxKvJJelCq0dTXWT5pbO2gDXC6h6QDXCaHo6pOHGPUy+YBaGQRGuSusMEASYiWunYN0vCAI8QaXnWMXNMdFP3jHAJH0eDsoiGnLPBlBp4TNm6rYI74nMzgz3B9IikW4WVK+dc8KZJZWYjAuORU3jc1c/NPskD2ASinf8v3xnfXeukU0sJ5N6m5E8VLjObPEO+mN2t/FZTMZLiFqPWc/ALSqnMnnhwrNi2rbfg/rd/IpL8Le3pSBne8+seeFVBoGqzHM9yXw==",
+[   57.179360] cloud-init[1255]:                 "git.wsq.io" => "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPEJK993/eLSVTm5Tou7b188tsxmOrUE1Mx3fWpuM9S1PbtJkk/tn/FEzI1Q/gpdWHKQW+XZS1d9bUZQlRHuuDU=",
+[   57.179574] cloud-init[1255]:                 "github.com" => "AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==",
+[   57.229857] cloud-init[1255]:                 "gitlab.wsq.io" => "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHQf/HIXCUKW5NL+4K5vCUCwDRcyxqYjW1O624j0tg0iLgmZaUDeVmg8+G5Aj4zK3mT/xPEWO5nWtSb14uBR/Kk="
+[   57.230034] cloud-init[1255]:               }
+[   57.230235] cloud-init[1255]:             Merged result: {
+[   57.230448] cloud-init[1255]:               "bitbucket.org" => "AAAAB3NzaC1yc2EAAAABIwAAAQEAubiN81eDcafrgMeLzaFPsw2kNvEcqTKl/VqLat/MaB33pZy0y3rJZtnqwR2qOOvbwKZYKiEO1O6VqNEBxKvJJelCq0dTXWT5pbO2gDXC6h6QDXCaHo6pOHGPUy+YBaGQRGuSusMEASYiWunYN0vCAI8QaXnWMXNMdFP3jHAJH0eDsoiGnLPBlBp4TNm6rYI74nMzgz3B9IikW4WVK+dc8KZJZWYjAuORU3jc1c/NPskD2ASinf8v3xnfXeukU0sJ5N6m5E8VLjObPEO+mN2t/FZTMZLiFqPWc/ALSqnMnnhwrNi2rbfg/rd/IpL8Le3pSBne8+seeFVBoGqzHM9yXw==",
+[   57.230660] cloud-init[1255]:               "git.wsq.io" => "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPEJK993/eLSVTm5Tou7b188tsxmOrUE1Mx3fWpuM9S1PbtJkk/tn/FEzI1Q/gpdWHKQW+XZS1d9bUZQlRHuuDU=",
+[   57.230860] cloud-init[1255]:               "github.com" => "AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==",
+[   57.231071] cloud-init[1255]:               "gitlab.wsq.io" => "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHQf/HIXCUKW5NL+4K5vCUCwDRcyxqYjW1O624j0tg0iLgmZaUDeVmg8+G5Aj4zK3mT/xPEWO5nWtSb14uBR/Kk="
+[   57.231265] cloud-init[1255]:             }
+[   57.231479] cloud-init[1255]:       Environment Data Provider (hiera configuration version 5)
+[   57.231696] cloud-init[1255]:         Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+[   57.231900] cloud-init[1255]:         Merge strategy deep
+[   57.232109] cloud-init[1255]:           Hierarchy entry "Per-node data (yaml version)"
+[   57.232316] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/nodes/ip-10-60-43-238.ec2.internal.yaml"
+[   57.232527] cloud-init[1255]:               Original path: "nodes/%{::trusted.certname}.yaml"
+[   57.232940] cloud-init[1255]:               Path not found
+[   57.233159] cloud-init[1255]:           Hierarchy entry "Other YAML hierarchy levels"
+[   57.233353] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+[   57.233562] cloud-init[1255]:               Original path: "common.yaml"
+[   57.233764] cloud-init[1255]:               Path not found
+[   57.233964] cloud-init[1255]:       Module data provider for module "beacon" not found
+[   57.234167] cloud-init[1255]:       Merged result: {
+[   57.234382] cloud-init[1255]:         "bitbucket.org" => "AAAAB3NzaC1yc2EAAAABIwAAAQEAubiN81eDcafrgMeLzaFPsw2kNvEcqTKl/VqLat/MaB33pZy0y3rJZtnqwR2qOOvbwKZYKiEO1O6VqNEBxKvJJelCq0dTXWT5pbO2gDXC6h6QDXCaHo6pOHGPUy+YBaGQRGuSusMEASYiWunYN0vCAI8QaXnWMXNMdFP3jHAJH0eDsoiGnLPBlBp4TNm6rYI74nMzgz3B9IikW4WVK+dc8KZJZWYjAuORU3jc1c/NPskD2ASinf8v3xnfXeukU0sJ5N6m5E8VLjObPEO+mN2t/FZTMZLiFqPWc/ALSqnMnnhwrNi2rbfg/rd/IpL8Le3pSBne8+seeFVBoGqzHM9yXw==",
+[   57.234592] cloud-init[1255]:         "git.wsq.io" => "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPEJK993/eLSVTm5Tou7b188tsxmOrUE1Mx3fWpuM9S1PbtJkk/tn/FEzI1Q/gpdWHKQW+XZS1d9bUZQlRHuuDU=",
+[   57.234804] cloud-init[1255]:         "github.com" => "AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==",
+[   57.235016] cloud-init[1255]:         "gitlab.wsq.io" => "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHQf/HIXCUKW5NL+4K5vCUCwDRcyxqYjW1O624j0tg0iLgmZaUDeVmg8+G5Aj4zK3mT/xPEWO5nWtSb14uBR/Kk="
+[   57.235227] cloud-init[1255]:       }[0m
+[   57.235435] cloud-init[1255]: [0;36mDebug: Automatic Parameter Lookup of 'beacon::profile::base::nfs_client'
+[   57.285743] cloud-init[1255]:   Using merge options from "lookup_options" hash
+[   57.285926] cloud-init[1255]:   Searching for "beacon::profile::base::nfs_client"
+[   57.286142] cloud-init[1255]:     Merge strategy deep
+[   57.286339] cloud-init[1255]:       Global Data Provider (hiera configuration version 5)
+[   57.286546] cloud-init[1255]:         Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   57.286751] cloud-init[1255]:         Hierarchy entry "Yaml backend"
+[   57.286958] cloud-init[1255]:           Merge strategy deep
+[   57.287170] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   57.287370] cloud-init[1255]:               Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   57.287575] cloud-init[1255]:               No such key: "beacon::profile::base::nfs_client"
+[   57.287803] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/base.yaml"
+[   57.288016] cloud-init[1255]:               Original path: "role/%{::role}.yaml"
+[   57.288230] cloud-init[1255]:               No such key: "beacon::profile::base::nfs_client"
+[   57.288441] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   57.288645] cloud-init[1255]:               Original path: "family/%{facts.os.name}.yaml"
+[   57.288859] cloud-init[1255]:               No such key: "beacon::profile::base::nfs_client"
+[   57.289077] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   57.289281] cloud-init[1255]:               Original path: "provider/%{facts.provider}.yaml"
+[   57.289487] cloud-init[1255]:               No such key: "beacon::profile::base::nfs_client"
+[   57.289738] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   57.289904] cloud-init[1255]:               Original path: "common.yaml"
+[   57.290111] cloud-init[1255]:               Found key: "beacon::profile::base::nfs_client" value: true
+[   57.290320] cloud-init[1255]:             Merged result: true
+[   57.290530] cloud-init[1255]:       Environment Data Provider (hiera configuration version 5)
+[   57.290733] cloud-init[1255]:         Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+[   57.290936] cloud-init[1255]:         Merge strategy deep
+[   57.291143] cloud-init[1255]:           Hierarchy entry "Per-node data (yaml version)"
+[   57.291352] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/nodes/ip-10-60-43-238.ec2.internal.yaml"
+[   57.291555] cloud-init[1255]:               Original path: "nodes/%{::trusted.certname}.yaml"
+[   57.291767] cloud-init[1255]:               Path not found
+[   57.291975] cloud-init[1255]:           Hierarchy entry "Other YAML hierarchy levels"
+[   57.292174] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+[   57.292376] cloud-init[1255]:               Original path: "common.yaml"
+[   57.292593] cloud-init[1255]:               Path not found
+[   57.292822] cloud-init[1255]:       Module data provider for module "beacon" not found
+[   57.293016] cloud-init[1255]:       Merged result: true[0m
+[   57.293245] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/profile/base/hostname.pp' in environment production[0m
+[   57.293447] cloud-init[1255]: [0;36mDebug: Automatically imported beacon::profile::base::hostname from beacon/profile/base/hostname into production[0m
+[   57.293657] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/profile/base/accounts.pp' in environment production[0m
+[   57.293862] cloud-init[1255]: [0;36mDebug: Automatically imported beacon::profile::base::accounts from beacon/profile/base/accounts into production[0m
+[   57.344107] cloud-init[1255]: [0;36mDebug: Automatic Parameter Lookup of 'beacon::profile::base::accounts::wst_ssh_pub_key'
+[   57.344301] cloud-init[1255]:   Using merge options from "lookup_options" hash
+[   57.344504] cloud-init[1255]:   Searching for "beacon::profile::base::accounts::wst_ssh_pub_key"
+[   57.344732] cloud-init[1255]:     Merge strategy deep
+[   57.344931] cloud-init[1255]:       Global Data Provider (hiera configuration version 5)
+[   57.345154] cloud-init[1255]:         Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   57.345354] cloud-init[1255]:         Hierarchy entry "Yaml backend"
+[   57.345558] cloud-init[1255]:           Merge strategy deep
+[   57.345771] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   57.345988] cloud-init[1255]:               Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   57.346203] cloud-init[1255]:               No such key: "beacon::profile::base::accounts::wst_ssh_pub_key"
+[   57.346408] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/role/base.yaml"
+[   57.346611] cloud-init[1255]:               Original path: "role/%{::role}.yaml"
+[   57.346825] cloud-init[1255]:               No such key: "beacon::profile::base::accounts::wst_ssh_pub_key"
+[   57.347028] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/family/Ubuntu.yaml"
+[   57.347230] cloud-init[1255]:               Original path: "family/%{facts.os.name}.yaml"
+[   57.347436] cloud-init[1255]:               No such key: "beacon::profile::base::accounts::wst_ssh_pub_key"
+[   57.347634] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/provider/aws.yaml"
+[   57.347837] cloud-init[1255]:               Original path: "provider/%{facts.provider}.yaml"
+[   57.348040] cloud-init[1255]:               No such key: "beacon::profile::base::accounts::wst_ssh_pub_key"
+[   57.348251] cloud-init[1255]:             Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/common.yaml"
+[   57.348458] cloud-init[1255]:               Original path: "common.yaml"
+[   57.348682] cloud-init[1255]:               Found key: "beacon::profile::base::accounts::wst_ssh_pub_key" value: "AAAAB3NzaC1yc2EAAAADAQABAAABAQC1RubmDKwpRLinXs12SMSMDraRUvM1nVD7Lluh/NMUN3Vsap6M2THd9W6v8kvaFjlvYd5LFU/ulnn+EfepCW1D5EEWBe5IS92d6GbV2zIN87DZpWsvwdxtqH13LjEk5syvcka45MSAtk15k88yROL+iM8BFXaoT9CquFNlK+mPiruEf0FcGMreLrri7lnaAiI9CyGSCySauVOV5+P0LXacG9PJ/xUSLmwXpfJZFzU4uU6aF48v70q8DwCARGwLV/7poRLmiEHst3O2mIVZG/ONFhBwosWJRT+w1QdNKWh7mA9uWTAdgSn9slKok5BSBYC0wOXdyLPbjr6yTG8REm+X"
+[   57.348870] cloud-init[1255]:             Merged result: "AAAAB3NzaC1yc2EAAAADAQABAAABAQC1RubmDKwpRLinXs12SMSMDraRUvM1nVD7Lluh/NMUN3Vsap6M2THd9W6v8kvaFjlvYd5LFU/ulnn+EfepCW1D5EEWBe5IS92d6GbV2zIN87DZpWsvwdxtqH13LjEk5syvcka45MSAtk15k88yROL+iM8BFXaoT9CquFNlK+mPiruEf0FcGMreLrri7lnaAiI9CyGSCySauVOV5+P0LXacG9PJ/xUSLmwXpfJZFzU4uU6aF48v70q8DwCARGwLV/7poRLmiEHst3O2mIVZG/ONFhBwosWJRT+w1QdNKWh7mA9uWTAdgSn9slKok5BSBYC0wOXdyLPbjr6yTG8REm+X"
+[   57.349090] cloud-init[1255]:       Environment Data Provider (hiera configuration version 5)
+[   57.349292] cloud-init[1255]:         Using configuration "/etc/puppetlabs/code/environments/production/hiera.yaml"
+[   57.349505] cloud-init[1255]:         Merge strategy deep
+[   57.349714] cloud-init[1255]:           Hierarchy entry "Per-node data (yaml version)"
+[   57.349924] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/nodes/ip-10-60-43-238.ec2.internal.yaml"
+[   57.350132] cloud-init[1255]:               Original path: "nodes/%{::trusted.certname}.yaml"
+[   57.350339] cloud-init[1255]:               Path not found
+[   57.350549] cloud-init[1255]:           Hierarchy entry "Other YAML hierarchy levels"
+[   57.350759] cloud-init[1255]:             Path "/etc/puppetlabs/code/environments/production/data/common.yaml"
+[   57.350963] cloud-init[1255]:               Original path: "common.yaml"
+[   57.400993] cloud-init[1255]:               Path not found
+[   57.401192] cloud-init[1255]:       Module data provider for module "beacon" not found
+[   57.401401] cloud-init[1255]:       Merged result: "AAAAB3NzaC1yc2EAAAADAQABAAABAQC1RubmDKwpRLinXs12SMSMDraRUvM1nVD7Lluh/NMUN3Vsap6M2THd9W6v8kvaFjlvYd5LFU/ulnn+EfepCW1D5EEWBe5IS92d6GbV2zIN87DZpWsvwdxtqH13LjEk5syvcka45MSAtk15k88yROL+iM8BFXaoT9CquFNlK+mPiruEf0FcGMreLrri7lnaAiI9CyGSCySauVOV5+P0LXacG9PJ/xUSLmwXpfJZFzU4uU6aF48v70q8DwCARGwLV/7poRLmiEHst3O2mIVZG/ONFhBwosWJRT+w1QdNKWh7mA9uWTAdgSn9slKok5BSBYC0wOXdyLPbjr6yTG8REm+X"[0m
+[   57.401666] cloud-init[1255]: [0;36mDebug: Resource user[wstcoredev] was not determined to be defined[0m
+[   57.401821] cloud-init[1255]: [0;36mDebug: Create new resource user[wstcoredev] with params {"ensure"=>"present", "uid"=>1001, "system"=>true, "managehome"=>true, "home"=>"/home/wstcoredev", "shell"=>"/bin/bash", "groups"=>["users", "docker", "wst-logs", "wst-core-dev"]}[0m
+[   57.402026] cloud-init[1255]: [0;36mDebug: Resource user[wstuser] was not determined to be defined[0m
+[   57.402236] cloud-init[1255]: [0;36mDebug: Create new resource user[wstuser] with params {"ensure"=>"present", "uid"=>1003, "system"=>true, "managehome"=>true, "home"=>"/home/wstuser", "shell"=>"/bin/bash", "groups"=>["users"]}[0m
+[   57.402447] cloud-init[1255]: [0;36mDebug: Resource group[wst-core-dev] was not determined to be defined[0m
+[   57.402712] cloud-init[1255]: [0;36mDebug: Create new resource group[wst-core-dev] with params {"ensure"=>"present", "gid"=>500, "allowdupe"=>false}[0m
+[   57.402867] cloud-init[1255]: [0;36mDebug: Resource group[wst-core-prod] was not determined to be defined[0m
+[   57.403075] cloud-init[1255]: [0;36mDebug: Create new resource group[wst-core-prod] with params {"ensure"=>"present", "gid"=>501, "allowdupe"=>false}[0m
+[   57.403279] cloud-init[1255]: [0;36mDebug: Resource group[wst-core-developers] was not determined to be defined[0m
+[   57.403485] cloud-init[1255]: [0;36mDebug: Create new resource group[wst-core-developers] with params {"ensure"=>"present", "gid"=>502, "allowdupe"=>false}[0m
+[   57.403695] cloud-init[1255]: [0;36mDebug: Resource group[git] was not determined to be defined[0m
+[   57.403898] cloud-init[1255]: [0;36mDebug: Create new resource group[git] with params {"ensure"=>"present", "gid"=>503, "allowdupe"=>false}[0m
+[   57.404097] cloud-init[1255]: [0;36mDebug: Resource group[sftp-users] was not determined to be defined[0m
+[   57.404304] cloud-init[1255]: [0;36mDebug: Create new resource group[sftp-users] with params {"ensure"=>"present", "gid"=>504, "allowdupe"=>false}[0m
+[   57.404513] cloud-init[1255]: [0;36mDebug: Resource group[wst-logs] was not determined to be defined[0m
+[   57.404931] cloud-init[1255]: [0;36mDebug: Create new resource group[wst-logs] with params {"ensure"=>"present", "gid"=>505, "allowdupe"=>false}[0m
+[   57.405144] cloud-init[1255]: [0;36mDebug: Resource ssh_authorized_key[default@wst] was not determined to be defined[0m
+[   57.405356] cloud-init[1255]: [0;36mDebug: Create new resource ssh_authorized_key[default@wst] with params {"ensure"=>"present", "user"=>"wstcoredev", "type"=>"ssh-rsa", "key"=>"AAAAB3NzaC1yc2EAAAADAQABAAABAQC1RubmDKwpRLinXs12SMSMDraRUvM1nVD7Lluh/NMUN3Vsap6M2THd9W6v8kvaFjlvYd5LFU/ulnn+EfepCW1D5EEWBe5IS92d6GbV2zIN87DZpWsvwdxtqH13LjEk5syvcka45MSAtk15k88yROL+iM8BFXaoT9CquFNlK+mPiruEf0FcGMreLrri7lnaAiI9CyGSCySauVOV5+P0LXacG9PJ/xUSLmwXpfJZFzU4uU6aF48v70q8DwCARGwLV/7poRLmiEHst3O2mIVZG/ONFhBwosWJRT+w1QdNKWh7mA9uWTAdgSn9slKok5BSBYC0wOXdyLPbjr6yTG8REm+X", "require"=>User[wstcoredev]{:name=>"wstcoredev"}}[0m
+[   57.405561] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/manifests/init.pp' in environment production[0m
+[   57.405773] cloud-init[1255]: [0;36mDebug: Automatically imported sudo from sudo into production[0m
+[   57.405991] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/manifests/params.pp' in environment production[0m
+[   57.406198] cloud-init[1255]: [0;36mDebug: Automatically imported sudo::params from sudo/params into production[0m
+[   57.456234] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/manifests/package.pp' in environment production[0m
+[   57.456423] cloud-init[1255]: [0;36mDebug: Automatically imported sudo::package from sudo/package into production[0m
+[   57.456630] cloud-init[1255]: [0;36mDebug: Resource package[sudo] was not determined to be defined[0m
+[   57.456862] cloud-init[1255]: [0;36mDebug: Create new resource package[sudo] with params {"ensure"=>"present"}[0m
+[   57.457063] cloud-init[1255]: [0;36mDebug: Package[sudo]: Adding default for provider[0m
+[   57.457271] cloud-init[1255]: [0;36mDebug: Scope(Class[Sudo]): Retrieving template sudo/sudoers.ubuntu.erb[0m
+[   57.457474] cloud-init[1255]: [0;36mDebug: template[/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/templates/sudoers.ubuntu.erb]: Bound template variables for /var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/templates/sudoers.ubuntu.erb in 0.00 seconds[0m
+[   57.457676] cloud-init[1255]: [0;36mDebug: template[/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/templates/sudoers.ubuntu.erb]: Interpolated template /var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/modules/sudo/templates/sudoers.ubuntu.erb in 0.00 seconds[0m
+[   57.457889] cloud-init[1255]: [0;36mDebug: importing '/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/profile/drives.pp' in environment production[0m
+[   57.458100] cloud-init[1255]: [0;36mDebug: Automatically imported beacon::profile::drives from beacon/profile/drives into production[0m
+[   57.458295] cloud-init[1255]: [0;36mDebug: Automatic Parameter Lookup of 'beacon::profile::drives::setra'
+[   57.458517] cloud-init[1255]:   Searching for "beacon::profile::drives::setra"
+[   57.458717] cloud-init[1255]:     Global Data Provider (hiera configuration version 5)
+[   57.458924] cloud-init[1255]:       Using configuration "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/hiera.yaml"
+[   57.459136] cloud-init[1255]:       Hierarchy entry "Yaml backend"
+[   57.459347] cloud-init[1255]:         Path "/var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/environments/prod/data/host/qventure-db-snap-1.yaml"
+[   57.459548] cloud-init[1255]:           Original path: "host/%{facts.wst.hiera_host_class}.yaml"
+[   57.459752] cloud-init[1255]:           Found key: "beacon::profile::drives::setra" value: {
+[   57.459954] cloud-init[1255]:             "/dev/xvdf" => 32
+[   57.460166] cloud-init[1255]:           }[0m
+[   57.460373] cloud-init[1255]: [0;36mDebug: Resource file[/drives] was not determined to be defined[0m
+[   57.460572] cloud-init[1255]: [0;36mDebug: Create new resource file[/drives] with params {"ensure"=>"directory", "owner"=>"root", "group"=>"root", "mode"=>"0755"}[0m
+[   57.460789] cloud-init[1255]: [0;36mDebug: Resource file[/shares] was not determined to be defined[0m
+[   57.460998] cloud-init[1255]: [0;36mDebug: Create new resource file[/shares] with params {"ensure"=>"directory", "owner"=>"root", "group"=>"root", "mode"=>"0755"}[0m
+[   57.461202] cloud-init[1255]: [0;36mDebug: Facter: [beacon/attach_and_format] Got device overrides {}[0m
+[   57.461406] cloud-init[1255]: [0;36mDebug: Facter: [beacon/legacy] Also got swap_vols [][0m
+[   57.461614] cloud-init[1255]: [0;36mDebug: Facter: [beacon/attach_and_format] Got lvm {}[0m
+[   57.461817] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: drives[0m
+[   57.462031] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: drives in file: drives.rb[0m
+[   57.462239] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7bc38530 @name="drives", @fact_class=nil, @user_query="drives", @type=:custom, @file=nil>][0m
+[   57.462450] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: drives in core facts and external facts[0m
+[   57.462653] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   57.462860] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   57.513229] cloud-init[1255]: [0;36mDebug: Facter: fact "drives" has resolved to: [{"type"=>"block", "id"=>"vol-0058e78a9b7bac9ae", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>false}, {"type"=>"block", "id"=>"vol-05a56be07510c805b", "name"=>"/dev/sda1", "device"=>"/dev/sda1", "mount"=>"/", "attached"=>true}, {"type"=>"block", "id"=>"vol-015fe18c674be835a", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>true}][0m
+[   57.513375] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: provider[0m
+[   57.513625] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: provider in file: provider.rb[0m
+[   57.513814] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7b81e918 @name="provider", @fact_class=nil, @user_query="provider", @type=:custom, @file=nil>][0m
+[   57.514012] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: provider in core facts and external facts[0m
+[   57.514226] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   57.514427] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   57.514632] cloud-init[1255]: [0;36mDebug: Facter: fact "provider" has resolved to: aws[0m
+[   57.514844] cloud-init[1255]: [0;36mDebug: Facter: [beacon/attach_and_format] Attaching volumes via `attach_ebs_volumes`[0m
+[   57.515050] cloud-init[1255]: [0;36mDebug: Facter: resolving fact with user_query: drives[0m
+[   57.515265] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: drives in file: drives.rb[0m
+[   57.515476] cloud-init[1255]: [0;36mDebug: Facter: List of resolvable facts: [#<Facter::SearchedFact:0x000055dd7f0714c8 @name="drives", @fact_class=nil, @user_query="drives", @type=:custom, @file=nil>][0m
+[   57.515680] cloud-init[1255]: [0;36mDebug: Facter: Searching fact: drives in core facts and external facts[0m
+[   57.515889] cloud-init[1255]: [0;36mDebug: Facter: Loading all internal facts[0m
+[   57.516098] cloud-init[1255]: [0;36mDebug: Facter: Loading external facts[0m
+[   57.516308] cloud-init[1255]: [0;36mDebug: Facter: fact "drives" has resolved to: [{"type"=>"block", "id"=>"vol-0058e78a9b7bac9ae", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>false}, {"type"=>"block", "id"=>"vol-05a56be07510c805b", "name"=>"/dev/sda1", "device"=>"/dev/sda1", "mount"=>"/", "attached"=>true}, {"type"=>"block", "id"=>"vol-015fe18c674be835a", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>true}][0m
+[   57.516512] cloud-init[1255]: [0;36mDebug: Facter: [BeaconHelpers::EC2] Attaching {"type"=>"block", "id"=>"vol-0058e78a9b7bac9ae", "name"=>"/dev/xvdf", "device"=>"/dev/xvdf", "mount"=>"/drives/data0", "attached"=>false}[0m
+[   57.516924] cloud-init[1255]: [1;33mWarning: Facter: [BeaconHelpers::EC2] Failed to attach EBS volume vol-0058e78a9b7bac9ae[0m
+[   57.517136] cloud-init[1255]: [1;31mError: Evaluation Error: Error while evaluating a Function Call, Invalid value '/dev/xvdf' for unixDevice. Attachment point /dev/xvdf is already in use (file: /var/lib/beacon/puppet/pkgs/wst_puppet-1d9848009a7f096dc7b85a4ccaa374a3e1ab31a7/site/beacon/manifests/profile/drives.pp, line: 50, column: 13) on node ip-10-60-43-238.ec2.internal[0m
+[   57.517346] cloud-init[1255]: [0;36mDebug: Found in cache :production (ttl = 0 sec)[0m
+<14>May 26 08:20:24 cloud-init: #############################################################
+<14>May 26 08:20:24 cloud-init: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+<14>May 26 08:20:24 cloud-init: 1024 SHA256:6QtM/s+/5bU4kPBor8bWJIU+PD29yfQkxIvx3vslyBk root@ip-10-60-43-238 (DSA)
+<14>May 26 08:20:24 cloud-init: 256 SHA256:D9trsv/HsPfwbZV5+iE5dSCztXamKljhEfC/J6Xrk9s root@ip-10-60-43-238 (ECDSA)
+<14>May 26 08:20:24 cloud-init: 256 SHA256:NyLyJpL/xuO4vumZisjRPEV+e2tyu4NV1rIUReaP02Q root@ip-10-60-43-238 (ED25519)
+<14>May 26 08:20:24 cloud-init: 3072 SHA256:PCNo6sUrikCUtpVNbTJyXCQZU0l/Pb9gpbFb3Z+Yt8A root@ip-10-60-43-238 (RSA)
+<14>May 26 08:20:24 cloud-init: -----END SSH HOST KEY FINGERPRINTS-----
+<14>May 26 08:20:24 cloud-init: #############################################################
+-----BEGIN SSH HOST KEY KEYS-----
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPq9wWbvLBmwkCKWWavRFfn7uvBUQNspII72oTUp80TMjyveRjCg6DLUmzh9O+RrVX1nmFYWyEZWFzWXDI4p2vM= root@ip-10-60-43-238
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMHHVnWqzw8KKstNrCtkH/PuNgFXklofS+apmqz8GjUi root@ip-10-60-43-238
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj3IrJLuSviubyu/zwSkfajqRnQ4o3w8Hq0q08UNktS0PWhOJMBOf0PJEC1JAkhNc2wI/0qfDSFlFr3H4qFzriDi2YhjhO7UahFkACj06e54RGCe/EORfrZOicaW49RDpVYbYNsDqVNbnFBp/h9gl4DTCiPR2y6ne5ciDZVARB6XoyGBhRjWjxOTrrasrGwBj8Fd9Ug2c3aHTg8KOOISr3ko3mYC5S2AqOA/oQVdPDybJBE0dYjnSK4WMi3bhPxU9sIug3pI1RZw8TqvSL5bwArf0+OZ40QYRgX3blAHEXNMVG1rCFWOZMxp44jmB7DZLcJeWbm+mgrB8kAdt7DhyQGlHr/WFAAeCTVj0lI5v5fHn81ZWM80eBTQPUMJLFB5Am1AXK/BB8sNBzuFNWUUI2SQE9fCS0Hlr46WjOG5htw2K59Z4dNANXtXChp+kbyqRAcG4VAy63aNl7cIjpZXgW1AaoM8kLKJSD6bM6IucC5CZeh2aevha6SdLRRCB0oIs= root@ip-10-60-43-238
+-----END SSH HOST KEY KEYS-----
+[   57.601799] cloud-init[1255]: Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~20.04.3 running 'modules:final' at Thu, 26 May 2022 08:20:04 +0000. Up 37.07 seconds.
+[   57.603649] cloud-init[1255]: Cloud-init v. 22.1-14-g2e17a0d6-0ubuntu1~20.04.3 finished at Thu, 26 May 2022 08:20:24 +0000. Datasource DataSourceEc2Local.  Up 57.59 seconds
+
+------------------------------------------------------------------------------------------------------------------------
